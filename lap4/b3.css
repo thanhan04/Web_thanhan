@@ -1,0 +1,93 @@
+.flex-box{
+    width: 100%;
+    height: 1434px;
+    border: 5px rgb(114, 244, 120) solid;
+}
+.tieude{
+    color: rgb(114, 244, 120);
+    text-align: center;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(73, 181, 73);
+}
+.list{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+.list>a{
+    color: white;
+    text-decoration: none;
+}
+
+.noi-dung{
+    width: 100%;
+    height: 1150px;
+    display: flex;
+}
+.nd1{
+    width: 30%;
+    padding: 15px;
+    background-color: rgb(227, 225, 225);
+}
+.nd2{
+    width: 70%;
+    padding: 15px;
+}
+.anh1{
+    width: 85%;
+}
+.anh2{
+    width: 85%;
+    height: 80px;
+    padding-bottom: 10px;
+}
+.text{
+    width: 90%;
+}
+.footer{
+    border-top: 5px rgb(114, 244, 120) solid;
+    text-align: center;
+}
+.anh3{
+    width: 65%;
+}
+@media screen and (max-width: 768px) {
+    .flex-box{        
+        height: 2430px;
+    }
+    .tieude{
+        color: rgb(114, 244, 120);
+        text-align: center;
+        font-size: xx-large;
+    }
+    .menu{
+        height: 150px;
+    }
+    .list{
+        display: list-item;
+        text-align: center;
+    }
+    .noi-dung{
+        width: 95%;
+        flex-direction: column;
+    }
+    .nd1{
+        width: 95%;
+        background-color: white;
+    }
+    .nd2{
+        width: 95%;
+    }
+    .anh3{
+        width: 95%;
+    }
+    .text{
+        width: 95%;
+    }
+    .footer{
+        margin-top: 827px;
+    }
+}
