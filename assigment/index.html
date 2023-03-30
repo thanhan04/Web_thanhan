@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/main.css">
+  <link rel="stylesheet" href="./CSS/reponsive.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <title>Home</title>
+</head>
+
+<body>
+  <nav>
+    <div class="header">
+      <div class="logo-text">LOGO</div>
+      <ul class="menu-default">
+        <li><a href="./">Chăm Sóc Khách Hàng</a></li>
+        <li><a href="./"><button class="btn-login">Đăng Nhập</button></a></li>
+      </ul>
+    <div class="hamburger">
+      <input class="side-menu" type="checkbox" onclick="OpenMenu()" id="side-menu" />
+      <label class="hamb" for="side-menu"> <span class="bar-nav"></span></label>
+    </div>
+      
+    
+    </div>
+  </nav>
+<div class="container-new pt-1" >
+  <div class="menu-hide" id="MenuMobile">
+    <ul>
+     <li class=""><a href="http://" target="_blank" >Trang Chủ</a></li>
+     <li class=""><a href="http://" target="_blank" >Sản Phẩm</a></li>
+     <li class=""><a href="http://" target="_blank" >Liên Hệ</a></li>
+    </ul>
+   
+     </div>
+</div>
+  <div class="container-new pt-1 pb-3">
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-touch="false" data-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/lq_pc_11012023.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/sp_pc_1032022.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/sp_pc_15092022.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-target="#carouselExampleControlsNoTouching"
+        data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleControlsNoTouching"
+        data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="text-title">Chọn Game Để Nạp</div>
+  <div class="container-new card-gird pt-3 pb-3">
+    <label for="g1" id="typeGame" onclick="buy('g1')">
+      <div class="card-game position-relative">
+        <img src="./img/svg/tich.svg" alt="" class="svg-tick">
+        <div class="card-img">
+          <img src="./img/icon.png" alt="">
+        </div>
+        <div class="card-content">FIFA Online 4 M (VN)</div>
+      </div>
+      <input type="radio" id="g1" name="game" value="FIFA Online 4 M (VN)" checked>
+
+    </label>
+    <label for="g2" id="typeGame" onclick="buy('g2')">
+      <div class="card-game position-relative">
+        <img src="./img/svg/tich.svg" alt="" class="svg-tick">
+        <div class="card-img">
+          <img src="./img/icon (1).png" alt="">
+        </div>
+        <div class="card-content">FIFA Online 4 (VN)</div>
+      </div>
+      <input type="radio" id="g2" name="game" value="FIFA Online 4 (VN)">
+
+    </label>
+    <label for="g3" id="typeGame" onclick="buy('g3')">
+      <div class="card-game position-relative">
+        <img src="./img/svg/tich.svg" alt="" class="svg-tick">
+        <div class="card-img">
+          <img src="./img/icon (2).png" alt="">
+        </div>
+        <div class="card-content">Liên Quân Mobile</div>
+      </div>
+      <input type="radio" id="g3" name="game" value="Liên Quân Mobile">
+
+    </label>
+    <label for="g4" id="typeGame" onclick="buy('g4')">
+      <div class="card-game position-relative">
+        <img src="./img/svg/tich.svg" alt="" class="svg-tick">
+        <div class="card-img">
+          <img src="./img/icon (3).png" alt="">
+        </div>
+        <div class="card-content">Free Fire</div>
+      </div>
+      <input type="radio" id="g4" name="game" value="Free Fire">
+
+    </label>
+    <label for="g5" id="typeGame" onclick="buy('g5')">
+      <div class="card-game position-relative">
+        <img src="./img/svg/tich.svg" alt="" class="svg-tick">
+        <div class="card-img">
+          <img src="./img/icon (4).png" alt="">
+        </div>
+        <div class="card-content">Blade and Soul</div>
+      </div>
+      <input type="radio" id="g5" name="game" value="Blade and Soul">
+
+    </label>
+    <label for="g6" id="typeGame" onclick="buy('g6')">
+      <div class="card-game position-relative">
+        <img src="./img/svg/tich.svg" alt="" class="svg-tick">
+        <div class="card-img">
+          <img src="./img/icon (5).png" alt="">
+        </div>
+        <div class="card-content">Cái Thế Tranh Hùng</div>
+      </div>
+      <input type="radio" id="g6" name="game" value="Cái Thế Tranh Hùng">
+    </label>
+
+  </div>
+  <div class="text-title">Chọn Loại Thẻ Nạp</div>
+
+ <div class="card-flex pt-3 pb-3">
+<label for="1" id="cardType" class="card-type position-relative">
+  <div class="card-img-seclected">
+    <div class="top-seclect"></div>
+  </div>
+    <img src="./img/the-viettel.png" alt="" class="img-type">
+    <input onclick="typeCard(1)" type="radio" id="1" name="typeCard" value="Viettel" >
+</label>
+<label for="2"  id="cardType" class="card-type position-relative">
+  <div class="card-img-seclected">
+    <div class="top-seclect"></div>
+  </div>
+    <img src="img/the-vietnamobile.jpeg" alt="" class="img-type">
+    <input type="radio" id="2"  onclick="typeCard(2)" name="typeCard" value="VietNamMobile" >
+</label>
+<label for="3"  id="cardType" class="card-type position-relative">
+  <div class="card-img-seclected">
+    <div class="top-seclect"></div>
+  </div>
+    <img src="img/the-ca-rot.jpg" alt="" class="img-type">
+    <input type="radio" id="3"  onclick="typeCard(3)" name="typeCard" value="CaRot" >
+</label>
+<label for="4"  id="cardType" class="card-type position-relative">
+  <div class="card-img-seclected">
+    <div class="top-seclect"></div>
+  </div>
+    <img src="img/the-funcard.jpg" alt="" class="img-type">
+    <input type="radio" id="4"  onclick="typeCard(4)" name="typeCard" value="FunCard" >
+</label>
+<label for="5"  id="cardType" class="card-type position-relative">
+  <div class="card-img-seclected">
+    <div class="top-seclect"></div>
+  </div>
+    <img src="img/the-garena.png" alt="" class="img-type">
+    <input type="radio" id="5"  onclick="typeCard(5)" name="typeCard" value="Garena" >
+</label>
+<label for="6"  id="cardType" class="card-type position-relative">
+  <div class="card-img-seclected">
+    <div class="top-seclect"></div>
+  </div>
+    <img src="img/the-gate.png" alt="" class="img-type">
+    <input type="radio" id="6"  onclick="typeCard(6)" name="typeCard" value="Gate" >
+</label>
+<label for="7"  id="cardType" class="card-type position-relative">
+  <div class="card-img-seclected">
+    <div class="top-seclect"></div>
+  </div>
+    <img src="img/the-mobifone.jpeg" alt="" class="img-type">
+    <input type="radio" id="7"  onclick="typeCard(7)" name="typeCard" value="MobiFone" >
+</label>
+<label for="8"  id="cardType" class="card-type position-relative">
+  <div class="card-img-seclected">
+    <div class="top-seclect"></div>
+  </div>
+    <img src="img/the-vcoin.png" alt="" class="img-type">
+    <input type="radio" id="8"  onclick="typeCard(8)" name="typeCard" value="Vcoin" >
+</label>
+<label for="9"  id="cardType" class="card-type position-relative">
+  <div class="card-img-seclected">
+    <div class="top-seclect"></div>
+  </div>
+    <img src="img/the-vinaphone.jpeg" alt="" class="img-type">
+    <input type="radio" id="9"  onclick="typeCard(9)" name="typeCard" value="VinaPhone" >
+</label>
+<label for="10"  id="cardType" class="card-type position-relative">
+  <div class="card-img-seclected">
+    <div class="top-seclect"></div>
+  </div>
+    <img src="img/the-zing.png" alt="" class="img-type">
+    <input type="radio" id="10"  onclick="typeCard(10)" name="typeCard" value="Zing" >
+</label>
+ </div>
+<footer class="p-3 text-center bg-dark text-light">
+  Điện thoại: 0857583488
+</footer>
+
+  <script src="./JS/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

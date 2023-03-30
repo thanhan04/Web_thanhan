@@ -1,0 +1,585 @@
+@font-face {
+    font-family: 'Operator Mono';
+    src: url('../Fonts/OperatorMono-BookItalic.woff2') format('woff2'),
+        url('../Fonts/OperatorMono-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Operator Mono';
+    src: url('../Fonts/OperatorMono-Light.woff2') format('woff2'),
+        url('../Fonts/OperatorMono-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Operator Mono';
+    src: url('../Fonts/OperatorMono-Book.woff2') format('woff2'),
+        url('../Fonts/OperatorMono-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Operator Mono';
+    src: url('../Fonts/OperatorMono-BoldItalic.woff2') format('woff2'),
+        url('../Fonts/OperatorMono-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Operator Mono';
+    src: url('../Fonts/OperatorMono-LightItalic.woff2') format('woff2'),
+        url('../Fonts/OperatorMono-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Operator Mono';
+    src: url('../Fonts/OperatorMono-Bold.woff2') format('woff2'),
+        url('../Fonts/OperatorMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Operator Mono';
+    src: url('../Fonts/OperatorMono-XLight.woff2') format('woff2'),
+        url('../Fonts/OperatorMono-XLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url('../Fonts/SFMonoLigaturized-BoldItalic.woff2') format('woff2'),
+        url('../Fonts/SFMonoLigaturized-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Operator Mono';
+    src: url('../Fonts/OperatorMono-XLightItalic.woff2') format('woff2'),
+        url('../Fonts/OperatorMono-XLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url('../Fonts/SFMonoLigaturized-Heavy.woff2') format('woff2'),
+        url('../Fonts/SFMonoLigaturized-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Operator Mono';
+    src: url('../Fonts/OperatorMono-Medium.woff2') format('woff2'),
+        url('../Fonts/OperatorMono-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url('../Fonts/SFMonoLigaturized-Bold.woff2') format('woff2'),
+        url('../Fonts/SFMonoLigaturized-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Operator Mono';
+    src: url('../Fonts/OperatorMono-MediumItalic.woff2') format('woff2'),
+        url('../Fonts/OperatorMono-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url('../Fonts/SFMonoLigaturized-Medium.woff2') format('woff2'),
+        url('../Fonts/SFMonoLigaturized-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url('../Fonts/SFMonoLigaturized-RegularItalic.woff2') format('woff2'),
+        url('../Fonts/SFMonoLigaturized-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url('../Fonts/SFMonoLigaturized-HeavyItalic.woff2') format('woff2'),
+        url('../Fonts/SFMonoLigaturized-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SVN-Avengeance';
+    src: url('../Fonts/SVN-Avengeance.woff2') format('woff2'),
+        url('../Fonts/SVN-Avengeance.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SF Mono';
+    src: url('../Fonts/SFMonoLigaturized-LightItalic.woff2') format('woff2'),
+        url('../Fonts/SFMonoLigaturized-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url('../Fonts/SFMonoLigaturized-Semibold.woff2') format('woff2'),
+        url('../Fonts/SFMonoLigaturized-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url('../Fonts/SFMonoLigaturized-MediumItalic.woff2') format('woff2'),
+        url('../Fonts/SFMonoLigaturized-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url('../Fonts/SFMonoLigaturized-Regular.woff2') format('woff2'),
+        url('../Fonts/SFMonoLigaturized-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url('../Fonts/SFMonoLigaturized-Light.woff2') format('woff2'),
+        url('../Fonts/SFMonoLigaturized-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url('../Fonts/SFMonoLigaturized-SemiboldItalic.woff2') format('woff2'),
+        url('../Fonts/SFMonoLigaturized-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+.logo-text
+{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: SVN-Avengeance;
+    letter-spacing: 5px;
+   user-select: none;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+ display: flex;  
+ align-items: center;
+ justify-content: space-between; 
+}
+nav {
+    padding: 20px;
+    background-color: red;
+    color: #fff;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+.menu-default > li
+{
+    padding-left: 20px;
+display: inline-block;
+font-family: SF Mono;
+
+
+}
+
+li > a
+{
+    text-decoration: none;
+    color: #fff;
+}
+button.btn-login {
+    background: none;
+    padding: 8px 25px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+button.btn-login:hover
+{
+    background: #fff;
+    color: #181717;
+}
+li > a:hover{
+    color: #fff;
+   
+    text-decoration: none;
+}
+.menu-default {
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+.text-title
+
+{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    user-select: none;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+img
+{
+    user-select: none;
+}
+.card-gird
+{
+  --number-columns:4;
+   display: grid;
+   grid-template-columns: repeat(var(--number-columns),minmax(0,1fr));
+   gap: 20px;
+   
+}
+
+.card-img > img {
+    width: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+body
+{
+    background-color: #f2f2f2;;
+}
+label {
+   
+  
+    border-radius: 20px;
+    border: 1px solid #d9d9d9;
+}
+
+.card-gird > label:hover {
+    box-shadow: 7px 7px 7px #a6a6a6;
+    transition: all .5s ease;
+    transform: translateY(-10px);
+}
+.card-content {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e3e3e3;
+    user-select: none;
+}
+.card-game:hover .card-content
+{
+    color: #bfbfbf;
+}
+
+
+
+ .svg-tick {
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 30px;
+    top: -20px;
+    right: 10px;
+    opacity: 0;
+    transition: .3s all ease-in-out;
+}
+input[name=game]:checked +  .svg-tick {
+    opacity: 0;
+  }
+  .active > div > .svg-tick
+  {
+    opacity: 1;
+  }
+  .card-flex
+  {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -20px;
+    width: 100%;
+
+  }
+  .card-type {
+    padding: 20px 0 20px;
+    width: calc(20% - 20px);
+    margin-left: 20px;
+    transition: .3s all ease-in-out;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 1px solid #dadada;
+}
+  .card-type:hover
+  {
+    transform: translateY(-5px);
+  }
+  .card-type:hover::before
+  {
+   opacity: 1;
+  }
+
+.card-type:before {
+    content: "";
+    border: 3px solid #d4353b;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+}
+.img-type {
+    width: 80%;
+    margin: auto;
+  
+    display: block;
+   
+}
+img
+{
+    background-attachment: fixed;
+    background-size: cover;
+}
+.card-img-seclected {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.top-seclect {
+    width: 35px;
+    height: 14px;
+    margin: 0 auto;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAUCAYAAAD2rd/BAAAAAXNSR0IArs4c6QAAAUJJREFUSA21lUsKwkAMQDNFvINH0J3tqgXBS/QI1gPpNbyDIOiquKquulLoHUQ6ToRsStP5NBUknUwneWgeAzDBp0rjPX4nKA1KuugzW6dtC2esG0WwXV7vN8keosCPTbLQX11qrRcIqZRq1Ewlq0vZSEFHUoWqPJ8b2BPBYl18xhzuSfURA1av+mgA0y4Y5nCvmw9diwCjYC3oHQeBe1ISjp5hkkwDDP7tptFHQsJRwF3JuF+Y8hISBo9En2QExkUJCYOB4V0f+iTjYCn/P2PO0to3BgFXWVyYxoVvM3ofz2INWvtE7xl2lcwGESqhF7CvZFbogJvQeSRCJLMBm9HwvgmdgUMlc4BOsbbtPdp3Ah4rGTXjoo+E1hmWkoyDpbyrhIPA0pIRHBddbkJ2JKaQjAOlvIuELPBUkhEcFw30oIQ/qOTgCaIXW9MAAAAASUVORK5CYII=);
+    background-size: 100% 100%;
+    opacity: 0;
+    transition: .3s all ease-in-out;
+}
+.show-active > div > .top-seclect
+{
+    opacity: 1;
+}
+.active,  .show-active
+{
+    border: 3px solid #d4353b;
+}
+input[name=game], input[name=typeCard] {
+    display: none;
+  }
+
+
+  
+.menu-hide
+{
+    background-color: red;
+   
+}
+.menu-hide > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container-new {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+li
+{
+    list-style-type: none;
+}
+.menu-hide > ul > li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 20px 12px;
+}
+.menu-hide > ul > li:before {
+    width: 0%;
+    content: " ";
+    height: 100%;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    opacity: 0.3;
+    background-color: #fff;
+    transition: width .3s;
+}
+.menu-hide > ul > li:hover::before
+{
+    width: 98%;
+}
+.hamburger {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    height: 24px;
+    width: 28px;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  
+  .line {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #000;
+    transition: all .2s ease-out;
+  }
+  
+  .line:before, .line:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #000;
+    transition: all .2s ease-out;
+  }
+  
+  .line:before {
+    top: -8px;
+  }
+  
+  .line:after {
+    bottom: -8px;
+  }
+  
+  .hamburger.is-active .line {
+    transform: scale(0);
+  }
+  
+  .hamburger.is-active .line:before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  
+  .hamburger.is-active .line:after {
+    transform: rotate(-45deg);
+    bottom: 0;
+  }
+  /* HAMBERGER */
+  .side-menu:checked~.hamb .bar-nav {
+    background: transparent;
+  }
+
+  .side-menu:checked~.hamb .bar-nav::before {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+
+  .side-menu:checked~.hamb .bar-nav::after {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  .bar-nav::before,
+.bar-nav::after {
+    background: #fff;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.bar-nav::before {
+    top: 7px;
+}
+
+.bar-nav::after {
+    top: -7px;
+}
+
+
+.bar-nav {
+    background: #fff;
+    display: block;
+    height: 3px;
+    position: relative;
+    width: 24px;
+
+}
+input[id=side-menu]
+{
+    display: none;
+}
+.side-menu {
+    display: none;
+  }
+.hamburger > label
+{
+    border: none;
+}
+.hamburger
+{
+    display: none;
+}
+
+/* EMD */
