@@ -1,9 +1,0 @@
-.ll {
-    padding-left: 65%;
-}
-
-@media screen and  (max-width: 990px) {
-    .ll {
-        padding-left: 0px;
-    }
-}
